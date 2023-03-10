@@ -1,0 +1,41 @@
+FECHA:06/03/2023
+NOMBRE: Julia Sofía García- Juan Daniel Salamanca
+CÓDIGO SIMCA: 104619011213-104619011223
+
+Preguntas de lectura: Capítulo 1
+
+1.Describir el efecto que tienen las redes en nuestra vida cotidiana.
+
+En la actualidad, nos permiten interactuar con personas que se encuentran en diferentes locaciones y husos horarios rompiendo con las barreras espacio temporales que pueden existir. Así mismo, nos permiten descubrir noticias, temas e información que capturan nuestra atención, además de brindar herramientas útiles en diversos campos como la educación, entretenimiento y trabajo.
+
+2. Listar las actividades cotidianas que realiza usted utilizando internet
+
+Realizar búsquedas de interés propio.
+Enviar y recibir correos electrónicos.
+Realizar cursos y estudios (e-learning).
+Entretenimiento personal: ver videos, escuchar música, etc.
+Realizar e-commerce.
+
+3. Dar ejemplos de herramientas de comunicación que utiliza o ha utilizado
+
+Herramientas de mensajería instantánea, tales como Messenger, Instagram, WhatsApp.
+Herramientas de podcasting, que actualmente ya están disponibles en diferentes plataformas como youtube, spotify, etc.
+Herramientas de colaboración como Google Collab, Github, Trello, Skype, Google Drive, etc.
+
+4. Describir los factores que afectan la calidad de las comunicaciones.
+
+Las calidades de las comunicaciones se pueden ver afectadas por factores externos como, por ejemplo, depende de: 
+-La ruta establecida entre el emisor y el receptor.
+-El número de veces en que el mensaje tiene que cambiar la forma, es decir, codificarse y decodificarse.
+-El número de veces que el mensaje tiene que ser redireccionado o redirigido.
+-El número de mensajes extra que llegan al mismo tiempo en la red.
+-La cantidad de tiempo asignado para una comunicación exitosa.
+
+Por otro lado, inciden factores internos como:
+
+• El tamaño del mensaje.
+• La complejidad del mensaje.
+• La importancia del mensaje.
+
+
+
