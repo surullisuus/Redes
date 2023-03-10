@@ -2,7 +2,7 @@ FECHA:06/03/2023
 NOMBRE: Julia Sofía García- Juan Daniel Salamanca
 CÓDIGO SIMCA: 104619011213-104619011223
 
-Preguntas de lectura: Capítulo 1
+-------------Preguntas de lectura: Capítulo 1
 
 1.Describir el efecto que tienen las redes en nuestra vida cotidiana.
 
@@ -36,6 +36,57 @@ Por otro lado, inciden factores internos como:
 • El tamaño del mensaje.
 • La complejidad del mensaje.
 • La importancia del mensaje.
+
+
+----------Preguntas de lectura: Capítulo 2
+
+5.¿Por qué se dice que un protocolo es independiente de la tecnología? 
+
+Los protocolos definen un conjunto de reglas y procedimientos que se utilizan para la comunicación entre dispositivos en una red, sin depender de la tecnología específica que se esté utilizando,es decir establecen el cómo deben comunicarse los dispositivos entre sí. Por lo tanto, los dispositivos deben adaptarse a los protocolos que ya existen, por ejemplo, dos dispositivos pueden comunicarse entre sí independientemente de su sistema operativo o de la tecnología que se esté utilizando para transmitir los datos, ya sea Ethernet, Wi-Fi, Bluetooth u otra.
+
+6. Consultar y explicar brevemente qué es una Unidad de Datos del Protocolo (PDU).
+
+Es una unidad de información que se utiliza en la comunicación de red para transmitir datos a través de una red. Es una forma de encapsular la información de los usuarios para que pueda ser transmitida a través de la red. En otras palabras,la PDU es la forma que toma una sección de datos al momento de pasar de una capa a otra, cuando se realiza la encapsulación cada capa encapsula las PDU que recibe de la capa anterior de acuerdo al protocolo utilizado y en cada encapsulación los PDU reciben un nombre distinto para identificarlos.
+
+7. Explicar la función de los protocolos en las comunicaciones de redes y para qué es el proceso de encapsulamiento de los datos (ilustrar el nombre que adopta cada PDU en cada capa del modelo TCP/IP mediante un dibujo).
+
+Los protocolos son fundamentales en las comunicaciones de redes porque permiten que los dispositivos se comuniquen entre sí de manera efectiva y eficiente, garantizan la interoperabilidad y la seguridad de los datos, y proporcionan una forma común de gestionar el tráfico de la red.
+
+El proceso de encapsulamiento de datos consiste en incluir datos de control en cada capa del modelo de red, desde la capa de aplicación hasta la capa física. Cada capa agrega su propia información de control, como encabezados y otros tipos de información, antes de enviar los datos a la siguiente capa. A medida que los datos se transmiten por la red, se van encapsulando con información de control adicional en cada capa.
+
+8. Describir la diferencia entre los modelos de protocolo y modelos de referencia.
+
+Los modelos de referencia son modelos teóricos que describen las diferentes funciones y capas que intervienen en la comunicación entre diferentes dispositivos, es decir son teóricos más no implementables. Estos modelos se usan para estandarizar la comunicación entre sistemas, un ejemplo de ellos es el modelo OSI.
+Por otro lado, los modelos de protocolo son especificaciones técnicas que describen cómo deben comunicarse los dispositivos de red para realizar tareas, cada protocolo define un conjunto de reglas, procedimientos y formatos que se deben seguir para intercambiar información de forma eficiente y segura.
+
+9. Describir la función de cada capa en los dos modelos de red: TCP/IP y OSI.
+
+Modelo OSI
+
+-Capa física: Esta capa es responsable de la transmisión de datos a través del medio físico, como cables, fibra óptica, ondas de radio, etc.
+-Capa de enlace de datos: Esta capa es responsable de la transmisión de datos de un dispositivo a otro en la misma red. Esta capa se asegura de que los datos se transmitan sin errores y proporciona la capacidad de corregir errores si ocurren.
+-Capa de red: La función de esta capa es asegurar que los paquetes de datos sean entregados desde su origen hasta su destino en la red. Para lograr esto, la capa establece la ruta que los paquetes deben tomar a través de la red y toma decisiones sobre cómo se deben enrutar los paquetes.
+-Capa de transporte: Esta capa garantiza la transmisión confiable de los datos a través de la red,por lo que divide y ensambla los datos en paquetes y se asegura de que estos paquetes lleguen en el orden correcto sin pérdidas o corrupciones.
+-Capa de sesión: Esta capa establece, mantiene y termina sesiones entre dispositivos en la red. Esta capa permite a los usuarios realizar operaciones como autenticación, control de acceso y control de diálogo.
+-Capa de presentación: Busca asegurar que los datos puedan ser interpretados por dispositivos en diversas plataformas y comunicarse de manera efectiva,esto lo hace ofreciendo servicios para la presentación de datos, incluyendo la codificación y conversión de formatos de datos para su correcta interpretación y comprensión.
+-Capa de aplicación: Esta capa ofrece servicios de aplicaciones al usuario, como correo electrónico, transferencia de archivos y navegación web, entre otros,es decir, es la conexión entre el usuario y la red, donde se lleva a cabo la interacción con las aplicaciones de software.
+
+Modelo TCP/IP
+
+-Capa de enlace de datos: Esta capa se encarga de la transmisión física de los datos a través de la red y de la detección de errores en la transmisión. También define cómo los datos se empaquetan y se transmiten en la red.
+
+-Capa de red: La función de esta capa es dirigir los datos a través de la red y elegir la ruta más adecuada para enviarlos. Además, esta capa se encarga de dividir y volver a unir los paquetes de datos que se envían a través de la red.
+-Capa de transporte: Esta capa provee un servicio de comunicación fiable de extremo a extremo entre los dispositivos, asegurándose de que los datos sean entregados de manera confiable y en el orden correcto.
+-Capa de aplicación: Esta capa ofrece servicios de aplicación al usuario,en sí es la conexión entre el usuario y la red.
+
+
+
+
+
+
+
+
+
 
 
 
