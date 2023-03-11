@@ -56,7 +56,8 @@ Redes no orientadas a conexión: son redes de comunicación en las que los dispo
 
 9.	Describa que es la calidad del servicio y que se necesita para mantener una buena calidad de servicio para las aplicaciones que lo requieren.
 
-La capacidad de una red para proporcionar diferentes niveles de servicio a diversos tipos de tráfico, como datos, voz y video, es lo que se conoce como calidad del servicio. Para mantener un nivel de calidad alto, se da prioridad a algunos paquetes de datos mediante la asignación de recursos, mientras que otros paquetes pueden sufrir demoras.
+La capacidad de una red para proporcionar diferentes niveles de servicio a diversos tipos de tráfico, como datos, voz y video, es lo que se conoce como calidad del servicio. 
+Para mantener un nivel de calidad alto, se da prioridad a algunos paquetes de datos mediante la asignación de recursos, mientras que otros paquetes pueden sufrir demoras.
 
 10.	¿Por qué importa la calidad del servicio en una red de datos? 
 La calidad de servicio o QoS es importante por ejemplo para determinar en que nivel la capacidad de la red es insuficiente, especialmente en aplicaciones de tiempo real, como son multimedia sobre voz IP o IP-TV, en las que se necesita una tasa fija de paquetes durante la transmisión para que de esta manera no exista ruido ni distorsión durante una sesión de trabajo con estas aplicaciones.
