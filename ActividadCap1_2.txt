@@ -37,6 +37,13 @@ Por otro lado, inciden factores internos como:
 • La complejidad del mensaje.
 • La importancia del mensaje.
 
+5.	Identificar los componentes clave de cualquier red de datos y describir su funcionamiento.
+
+•	Reglas: son los protocolos que se utilizan para que los dispositivos puedan comunicarse entre sí, incluyen la manera en que se envían los mensajes, su direccionamiento a través de la red y su interpretación en el dispositivo destino.
+•	Dispositivos: son aquellos que nos permiten la comunicación entre los diferentes nodos de la red.
+•	Medio:  son los medios físicos por los que se transmite un mensaje o datos en la red. Pueden ser cableados o inalámbricos.
+•	Mensajes: El mensaje o interacción que se desea realizar.
+
 6.	Responda brevemente, ¿Qué son los datos? ¿Qué es una red de datos? ¿Qué es una red convergente?
 
 Datos: hechos o información que se recopilan para emplearse posteriormente, estos pueden ser estructurados o no estructurados dependiendo de si se han organizado de forma especifica para un respectivo análisis.
@@ -60,6 +67,7 @@ La capacidad de una red para proporcionar diferentes niveles de servicio a diver
 Para mantener un nivel de calidad alto, se da prioridad a algunos paquetes de datos mediante la asignación de recursos, mientras que otros paquetes pueden sufrir demoras.
 
 10.	¿Por qué importa la calidad del servicio en una red de datos? 
+
 La calidad de servicio o QoS es importante por ejemplo para determinar en que nivel la capacidad de la red es insuficiente, especialmente en aplicaciones de tiempo real, como son multimedia sobre voz IP o IP-TV, en las que se necesita una tasa fija de paquetes durante la transmisión para que de esta manera no exista ruido ni distorsión durante una sesión de trabajo con estas aplicaciones.
 
 
