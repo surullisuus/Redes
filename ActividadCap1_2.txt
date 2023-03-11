@@ -37,8 +37,85 @@ Por otro lado, inciden factores internos como:
 • La complejidad del mensaje.
 • La importancia del mensaje.
 
+6.	Responda brevemente, ¿Qué son los datos? ¿Qué es una red de datos? ¿Qué es una red convergente?
+
+Datos: hechos o información que se recopilan para emplearse posteriormente, estos pueden ser estructurados o no estructurados dependiendo de si se han organizado de forma especifica para un respectivo análisis.
+Red de datos: es una infraestructura de comunicaciones que permite la transferencia de datos en dispositivos interconectados. Las redes de datos pueden ser cableadas (locales) o inalámbricas, además de incluir tecnologías de red como switches, routers, firewalls y servidores.
+Red convergente: es una red de comunicación que unifica redes dispersas en una misma infraestructura. En este tipo de red los datos, vídeo y voz se transmiten a través de una red en común por lo que es más eficiente compartir y utilizar dispositivos de red.
+
+7.	Describir las características de las arquitecturas de red: tolerante a fallas, escalabilidad, calidad del servicio y seguridad. Mostrar sus respectivos ejemplos. 
+
+Tolerancia a fallas: Una red tolerante a fallas limita el impacto de una falla en el software o hardware y puede recuperarse rápidamente. Estas redes utilizan enlaces o rutas redundantes entre el origen y el destino del mensaje para garantizar que los mensajes puedan enrutarse en forma instantánea en un enlace diferente si un enlace o ruta falla.
+Escalabilidad: Una red escalable puede crecer sin afectar el rendimiento del servicio a los usuarios actuales, y esto se logra gracias a un diseño jerárquico en capas tanto para la parte física como para la lógica. Cada capa funciona de manera independiente para permitir la conexión de nuevos usuarios y proveedores sin causar interrupciones en toda la red.
+Calidad de Servicio: las nuevas aplicaciones de voz y video en vivo en las internetworks están aumentando las expectativas de calidad de servicio para los usuarios. Aunque las redes actuales proporcionan tolerancia a fallas y escalabilidad, la calidad de servicio para la transmisión de voz y video requiere una calidad consistente y un envío ininterrumpido.
+Seguridad: La necesidad de incorporar seguridad en la arquitectura de red se ha vuelto crucial, y se están dedicando esfuerzos significativos a la investigación y desarrollo de soluciones de seguridad en la red. Se están implementando herramientas y procedimientos para combatir los defectos de seguridad inherentes en la arquitectura de red.
+
+8.	Investigar qué son las redes orientadas y no orientadas a la conexión.
+Redes orientadas a conexión: Las redes orientadas a conexión son un tipo de red en la que los dispositivos que se comunican establecen una conexión dedicada antes de transmitir datos. En una red orientada a conexión, se crea una ruta de comunicación entre los dispositivos y se reserva una cantidad específica de ancho de banda para la transmisión de datos. Esto garantiza la calidad y consistencia de los mensajes transmitidos en la red
+Redes no orientadas a conexión: son redes de comunicación en las que los dispositivos envían y reciben paquetes de datos independientes sin establecer previamente una conexión dedicada y continua entre ellos. En este tipo de redes, cada paquete de datos se enruta por la red de manera individual y puede seguir diferentes caminos hasta llegar a su destino.
+
+9.	Describa que es la calidad del servicio y que se necesita para mantener una buena calidad de servicio para las aplicaciones que lo requieren.
+
+10.	¿Por qué importa la calidad del servicio en una red de datos? 
+La calidad de servicio o QoS es importante por ejemplo para determinar en que nivel la capacidad de la red es insuficiente, especialmente en aplicaciones de tiempo real, como son multimedia sobre voz IP o IP-TV, en las que se necesita una tasa fija de paquetes durante la transmisión para que de esta manera no exista ruido ni distorsión durante una sesión de trabajo con estas aplicaciones.
+
 
 ----------Preguntas de lectura: Capítulo 2
+
+1.	Describir la estructura de una red, incluidos los dispositivos, medios y servicios necesarios para lograr comunicaciones exitosas.
+
+Existen dos tipos de Dispositivos:
+
+Dispositivos finales: constituyen la interfaz entre la red humana y la red de comunicación
+    •	Computadoras Impresoras de red
+    •	Teléfonos VoIP
+    •	Cámaras de seguridad
+    •	Dispositivos móviles de mano 
+los dispositivos finales se denominan host. Un dispositivo host puede ser el origen o el destino de un mensaje transmitido a través de la red. Para distinguir un host de otro, cada host en la red se identifica por una dirección.
+
+Dispositivos intermedios: las redes dependen de dispositivos intermediarios para proporcionar conectividad y para trabajar detrás de escena y garantizar que los datos fluyan a través de la red. Algunos ejemplos de estos dispositivos son:
+    •	dispositivos de acceso a la red (hubs, switches y puntos de acceso inalámbricos).
+    •	dispositivos de internetworking (routers).
+    •	servidores de comunicación y módems.
+    •	dispositivos de seguridad (firewalls).
+Estos dispositivos cumplen con las siguientes funciones:
+    •	regenerar y retransmitr señales de datos.
+    •	mantener información sobre qué rutas existen a través de la red y de la internetwork.
+    •	notificar a otros dispositivos los errores y las fallas de comunicación.
+    •	direccionar datos por rutas alternativas cuando existen fallas en un enlace,
+    •	clasificar y direccionar mensajes según las prioridades de QoS (calidad de servicio).
+    •	permitir o denegar el flujo de datos en base a configuraciones de seguridad.
+    •	Medios: La comunicación a través de una red es transportada por un medio. El medio proporciona el canal por el cual viaja el mensaje desde el origen hasta el destino.
+En la actualidad los mas usados son:
+    •	hilos metálicos dentro de los cables,
+    •	fibras de vidrio o plásticas (cable de fibra óptica), y
+    •	transmisión inalámbrica.
+Cada medio tiene unas cualidades distintas, de acuerdo a estas unas pueden lograr que la trasmisión de datos sea más eficiente que otras, mediante unos criterios como:
+    •	la distancia en la cual el medio puede transportar exitosamente una señal.
+    •	el ambiente en el cual se instalará el medio.
+    •	la cantidad de datos y la velocidad a la que se deben transmitir.
+    •	el costo del medio y de la instalación.
+
+2.	Comparar y contrastar los siguientes términos: RED, LAN, WAN, INTERNETWORK E INTERNET.
+
+TERMINO	    DESCRIPCION
+LAN:	Una red individual generalmente cubre una única área geográfica y proporciona servicios y aplicaciones  a personas dentro de una estructura organizacional común, como una empresa, un campus o una región.
+WAN:	Cuando una compañía o una organización tiene ubicaciones separadas por grandes distancias geográficas, es posible que deba utilizar un proveedor de servicio de telecomunicaciones (TSP) para interconectar las LAN en las distintas ubicaciones.
+RED:	la mayoría de los usuarios necesitan comunicarse con un recurso u otra red, fuera de la organización local.
+INTERNERWORK:	Una malla global de redes interconectadas (internetworks) cubre estas necesidades de comunicación humanas. Algunas de estas redes interconectadas pertenecen a grandes organizaciones públicas o privadas, como agencias
+gubernamentales o empresas industriales, y están reservadas para su uso exclusivo.
+INTRANET:	conexión privada de algunas LAN y WAN que pertenecen
+a una organización y que está diseñada para que puedan acceder solamente los miembros y empleados de la organización u otros que tengan autorización.
+
+En conclusión, tenemos que una red LAN es aquella que se conecta localmente, comúnmente las utilizan las empresas, hay algunas otras empresas que necesitan conectar varias redes LAN y esto genera una red WAN. Aunque estas redes se usan, la que más impulso gano fue la red, ya que es mucho más fácil enviar información a cualquier parte.
+
+3.	¿Cuál es la diferencia entre INTERNETWORK E INTERNET?
+
+Una internetwork es una red de redes que conecta múltiples redes individuales para permitir la comunicación y el intercambio de datos entre ellas. Internet es un ejemplo de una internetwork global que conecta redes de todo el mundo.
+Por otro lado, una intranet es una red privada que se utiliza dentro de una organización para permitir la comunicación y el intercambio de información entre sus miembros. Está protegida por cortafuegos y otros mecanismos de seguridad para restringir el acceso externo.
+
+4.	Describir la diferencia entre Tarjeta de interfaz de red (NIC), puerto físico e interfaz de red.
+
 
 5.¿Por qué se dice que un protocolo es independiente de la tecnología? 
 
