@@ -56,6 +56,8 @@ Redes no orientadas a conexión: son redes de comunicación en las que los dispo
 
 9.	Describa que es la calidad del servicio y que se necesita para mantener una buena calidad de servicio para las aplicaciones que lo requieren.
 
+La capacidad de una red para proporcionar diferentes niveles de servicio a diversos tipos de tráfico, como datos, voz y video, es lo que se conoce como calidad del servicio. Para mantener un nivel de calidad alto, se da prioridad a algunos paquetes de datos mediante la asignación de recursos, mientras que otros paquetes pueden sufrir demoras.
+
 10.	¿Por qué importa la calidad del servicio en una red de datos? 
 La calidad de servicio o QoS es importante por ejemplo para determinar en que nivel la capacidad de la red es insuficiente, especialmente en aplicaciones de tiempo real, como son multimedia sobre voz IP o IP-TV, en las que se necesita una tasa fija de paquetes durante la transmisión para que de esta manera no exista ruido ni distorsión durante una sesión de trabajo con estas aplicaciones.
 
@@ -116,6 +118,11 @@ Por otro lado, una intranet es una red privada que se utiliza dentro de una orga
 
 4.	Describir la diferencia entre Tarjeta de interfaz de red (NIC), puerto físico e interfaz de red.
 
+Una Tarjeta de Interfaz de Red es un componente de hardware que esta insertada en una computadora para permitir que se conecte a una red. 
+La NIC se comunica con la red a través de un puerto físico, que es una conexión física en la placa base de la computadora. 
+El puerto físico es el lugar donde se conecta físicamente el cable de red.
+
+Por otro lado, la interfaz de red es el software que permite a la NIC comunicarse con la red. 
 
 5.¿Por qué se dice que un protocolo es independiente de la tecnología? 
 
